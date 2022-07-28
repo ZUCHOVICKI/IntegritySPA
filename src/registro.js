@@ -9,9 +9,10 @@ function Registro() {
 
     return (
 
-        <div>
+        <div class="row">
             
-
+            <div class="col s6 offset-s3">
+            <h1>Integrity SPA</h1>
             <label>
                 Email:
                 <input type="text" name="Email" />
@@ -27,9 +28,9 @@ function Registro() {
                 <input type="text" name="Password" />
             </label>
 
-            <button ><NavLink to="/">Registrarse</NavLink></button>
-            <button ><NavLink to="/">Regresar</NavLink></button>
-
+            <button class="waves-effect waves-light btn #bbdefb blue lighten-4" ><NavLink to="/">Registrarse</NavLink></button>
+            <button class="waves-effect waves-light btn #bbdefb blue lighten-4" ><NavLink to="/">Regresar</NavLink></button>
+            </div>
         </div>
     )
 }

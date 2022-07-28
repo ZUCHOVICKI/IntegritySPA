@@ -17,7 +17,7 @@ function Main() {
     return (
         <HashRouter>
         <div>
-            <h1>Integrity SPA</h1>
+            
 
             {/* <NavLink to="/">Home</NavLink> */}
 

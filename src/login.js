@@ -9,9 +9,10 @@ function Login() {
 
     return (
 
-        <div>
+        <div class="row">
             
-            
+            <div class="col s6 offset-s3">
+            <h1>Integrity SPA</h1>
                 <label>
                     Username:
                     <input type="text" name="Username" />
@@ -22,9 +23,9 @@ function Login() {
                     <input type="text" name="Password" />
                 </label>
                 
-                <button ><NavLink to="/Buscador">Ingresar</NavLink></button>
-                <button ><NavLink to="/Registro">Registrarse</NavLink></button>
-            
+                <button class="waves-effect waves-light btn #bbdefb blue lighten-4" ><NavLink to="/Buscador">Ingresar</NavLink></button>
+                <button class="waves-effect waves-light btn #bbdefb blue lighten-4" ><NavLink to="/Registro">Registrarse</NavLink></button>
+                </div>
         </div>
     )
 }

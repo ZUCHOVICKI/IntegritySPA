@@ -23,7 +23,7 @@ function Buscador() {
         <div>
             
 
-           
+            <h1>Integrity SPA</h1>
 
             <input type="text" name="Busqueda" onChange={event => {
                 setfilter(event.target.value)
